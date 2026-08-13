@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.notes-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.notes-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
