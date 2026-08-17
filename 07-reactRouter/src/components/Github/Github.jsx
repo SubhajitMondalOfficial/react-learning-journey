@@ -19,12 +19,39 @@ const Github = () => {
 
 
   return (
-    <div className='flex flex-col items-center gap-6 text-center m-10  p-4  text-black text-3xl'>
-        <h1 className='bg-gray-400 p-6'>Github Followers : {data.followers}</h1>
+    <div className="text-center p-10">
+      <div className="max-w-sm mx-auto p-6 rounded-xl shadow-lg bg-white">
+        <img
+          className="w-40 h-40 mx-auto rounded-full"
+          src={data.avatar_url}
+          alt="GitHub Profile"
+        />
 
-    <img src={data.avatar_url} alt="Git Picture" width={300}/>
+        <h1 className="text-2xl font-bold mt-4">{data.name}</h1>
+
+        <p className="text-gray-500">@{data.login}</p>
+
+        <p className="mt-3">{data.bio}</p>
+
+        <div className="flex justify-around mt-6">
+          <div>
+            <p className="font-bold">{data.followers}</p>
+            <p>Followers</p>
+          </div>
+
+          <div>
+            <p className="font-bold">{data.following}</p>
+            <p>Following</p>
+          </div>
+
+          <div>
+            <p className="font-bold">{data.public_repos}</p>
+            <p>Repos</p>
+          </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Github
