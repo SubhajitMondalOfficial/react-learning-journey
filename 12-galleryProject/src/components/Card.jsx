@@ -1,6 +1,6 @@
 const Card = ({ val, index }) => {
   return (
-    <a href={val.url} target="_blank" rel="noreferrer" className="group block">
+    <a href={val.urll} target="_blank" rel="noreferrer" className="group block">
       <div
         className="bg-white/10 backdrop-blur-md
                    border border-white/10
@@ -16,7 +16,7 @@ const Card = ({ val, index }) => {
           <img
             className="h-full w-full object-cover
                        group-hover:scale-110
-                       transition-transform duration-500"
+                      transition-transform duration-500"
             src={val.download_url}
             alt={val.author}
             loading="lazy"
