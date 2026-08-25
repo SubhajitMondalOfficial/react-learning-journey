@@ -44,7 +44,7 @@ const HomePage = () => {
               "
             >
               <Sparkles size={14} />
-              Discover. Search. Save.
+              Discover. Search. Save..
             </div>
 
             {/* Heading */}
@@ -81,7 +81,7 @@ const HomePage = () => {
               "
             >
               Search photos, videos and GIFs from multiple platforms
-              in one beautiful place.
+              in one beautiful place..
             </p>
 
             {/* Search */}

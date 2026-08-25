@@ -6,6 +6,7 @@ import {
 } from "lucide-react";
 import { setActiveTab } from "../features/searchSlice";
 
+// Three tabs Tabs 
 const Tabs = () => {
   const tabs = [
     {

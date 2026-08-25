@@ -44,7 +44,7 @@ const CollectionPage = () => {
 
             <p className="mt-3 max-w-lg text-sm leading-6 text-white/40">
               Everything you've saved in one place. Explore your favorite
-              photos, videos and GIFs whenever you want.
+              photos, videos and GIFs whenever you wants.
             </p>
           </div>
 
@@ -85,7 +85,7 @@ const CollectionPage = () => {
         "
                 />
 
-                <span>Clear Collection</span>
+                <span>Clear Collections</span>
               </button>
             </div>
 

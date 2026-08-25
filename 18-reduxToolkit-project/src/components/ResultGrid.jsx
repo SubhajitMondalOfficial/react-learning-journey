@@ -97,9 +97,10 @@ const ResultGrid = () => {
     pb-10
   "
     >
-      {results.map((item) => (
-        <div key={item.id} className="flex justify-center">
-          <ResultCard item={item} /> 
+      {/* Come to change it */}
+      {results.map((items) => (
+        <div key={items.id} className="flex justify-center">
+          <ResultCard item={items} /> 
         </div>
       ))}
     </div>
