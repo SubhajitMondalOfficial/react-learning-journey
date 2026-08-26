@@ -35,8 +35,6 @@ const Card = ({ val, index }) => {
 
           <div className="flex items-center justify-between mt-3">
             <span className="text-sm text-gray-400">Image #{index + 1}</span>
-          <div className="flex items-center justify-between mt-3">
-            <span className="text-sm text-gray-400">Image #{index + 1}</span>
 
             <span className="text-sm text-blue-400 group-hover:text-blue-300 transition-colors">
               View →

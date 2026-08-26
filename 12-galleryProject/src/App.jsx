@@ -38,14 +38,6 @@ const App = () => {
         </div>
       );
     });
-  }  if (userData.length > 0) {
-    printUserData = userData.map(function (val, idx) {
-      return (
-        <div key={idx}>
-          <Card val={val} index={idx} />
-        </div>
-      );
-    });
   }
 
   return (
