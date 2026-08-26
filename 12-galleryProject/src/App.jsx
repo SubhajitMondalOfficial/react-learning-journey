@@ -22,15 +22,23 @@ const App = () => {
 
   let printUserData = (
     <div className="fixed inset-0 flex flex-col items-center justify-center gap-4 bg-gray-900">
-      <div className="w-11 h-10 border-4 border-gray-700 border-t-blue-500 rounded-full animate-spin"></div>
+      <div className="w-10 h-10 border-4 border-gray-700 border-t-blue-500 rounded-full animate-spin"></div>
 
       <h3 className="text-gray-400 text-lg font-semibold">
-        Bringing The pixels to life...
+        Bringing the pixels to life...
       </h3>
     </div>
   );
 
   if (userData.length > 0) {
+    printUserData = userData.map(function (val, idx) {
+      return (
+        <div key={idx}>
+          <Card val={val} index={idx} />
+        </div>
+      );
+    });
+  }  if (userData.length > 0) {
     printUserData = userData.map(function (val, idx) {
       return (
         <div key={idx}>
