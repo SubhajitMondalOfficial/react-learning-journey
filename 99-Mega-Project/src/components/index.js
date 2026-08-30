@@ -6,6 +6,7 @@ import Loading from "./Loading";
 import LogoutBtn from "./Header/LogoutBtn";
 import Button from "./form-item/Button";
 import Input from "./form-item/Input";
+import Select from "./form-item/Select";
 
 export {
     Header,
@@ -15,5 +16,6 @@ export {
     Loading,
     LogoutBtn,
     Button,
-    Input
+    Input,
+    Select
 }
