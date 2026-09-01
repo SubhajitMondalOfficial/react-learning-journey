@@ -7,6 +7,9 @@ import LogoutBtn from "./Header/LogoutBtn";
 import Button from "./form-item/Button";
 import Input from "./form-item/Input";
 import Select from "./form-item/Select";
+import RTE from "./RTE/RTE";
+import PostCard from "./Post-Card/PostCard";
+import PostForm from "./PostForm/PostForm";
 
 export {
     Header,
@@ -17,5 +20,8 @@ export {
     LogoutBtn,
     Button,
     Input,
-    Select
+    Select,
+    RTE,
+    PostCard,
+    PostForm,
 }
