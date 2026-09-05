@@ -20,7 +20,7 @@ const SignUp = () => {
             if (userData) {
                 const userData = await authService.getCurrentUser()
 
-                if(userData) dispatch(login(userData))
+                if(userData) dispatch(login({userData}))
                 navigate("/")
             }
         } catch (error) {
@@ -63,7 +63,7 @@ const SignUp = () => {
                     })}
                     />
 
-                     <Input 
+                    <Input 
                 label="Email"
                 placeholder="Enter your email"
                 type="email"

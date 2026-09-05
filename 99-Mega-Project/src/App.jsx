@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
-// import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 import authService from "./appwrite/auth"; 
 import {login, logout} from "./features/authSlice"
@@ -33,7 +33,7 @@ function App() {
             <Header />
 
             <main className="flex-1">
-                <h2>TEST</h2>
+                <Outlet/>
             </main>
 
             <Footer />
